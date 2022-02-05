@@ -1,0 +1,24 @@
+body{
+    background-image: url("background.jpg");
+}
+
+#Clown{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#snapshot{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-image: none;
+}
+@keyframes example{
+    from{box-shadow: 2px  2px 10px blue ;}
+    to{box-shadow: 2px 2px 10px black;}
+}
